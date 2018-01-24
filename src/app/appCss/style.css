@@ -4,9 +4,22 @@
 
 body {
 
-    margin: 60px;
+    margin: 0;
 
     font-family: sans-serif;
+}
+
+
+/* .content {
+    margin-top: 60px;
+} */
+
+
+.background {
+    color: #fafafa;
+    
+    /* background: linear-gradient(50deg, HSLA(205, 62%, 44%, 1), rgb(206, 132, 145)); */
+    width: 100%;
 }
 
 
@@ -17,7 +30,6 @@ body {
 
 @media (min-width:481px) {
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-    
 }
 
 @media (min-width:641px) {
