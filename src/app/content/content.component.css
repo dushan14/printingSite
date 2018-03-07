@@ -1,67 +1,69 @@
-
 .content {
-    margin-top: 60px; 
-   }
-   
-   
-   .hero {
-       color: #fafafa;
-       
-       /* background: linear-gradient(50deg, HSLA(205, 62%, 44%, 1), rgb(206, 132, 145)); */
-       background-color: #F6F5F1;
-       width: 100%;
-   }
-   
-   .carousel{
-       z-index: 1;
-   }
-   
-   .d-block{
-       height: 400px;
-       width: 700px;
-   }
-   
-   .description h1{
-       /* text-align: center; */
-       padding-top: 50px;
-       /* display: inline-block; */
-       font-family:'Times New Roman', Times, serif ;
-   }
-   
-   .description{
-       color: #ffffff;
-       height: 400px;
-       /* background-color:#A9B8C1; */
-       background-color:#1D262A;
-       
-   }
-   
-   .descriptionImg{
-       height: 200px;
-       /* width: 500px; */
-       float: left;
-       padding:0 100px 0 0;  
-   
-   }
-   
-   .header-limiter h1{
-       font-family:'Times New Roman', Times, serif ;
-   }
-   
-   
-   @media all and (max-width: 481px) {
-   
-       .descriptionImg{
-           padding: 0;
-           width: 100%;
-       }
-   }
-   
-   @media all and (max-width: 600px) {
-   
-       .descriptionImg{
-           padding: 0;
-           /* width: 100%; */
-       }
-   }
-   
+  margin-top: 60px;
+}
+
+.hero {
+  color: #fafafa;
+  /* background: linear-gradient(50deg, HSLA(205, 62%, 44%, 1), rgb(206, 132, 145)); */
+  background-color: #F6F5F1;
+  width: 100%;
+}
+
+.carousel {
+  z-index: 1;
+}
+
+.d-block {
+  height: 400px;
+  width: 700px;
+}
+
+.welcome{
+  height: 300px;
+}
+
+.description h1 {
+  /* text-align: center; */
+  padding-top: 50px;
+  /* display: inline-block; */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.description {
+  color: #ffffff;
+  height: 400px;
+  /* background-color:#A9B8C1; */
+  background-color: #1D262A;
+  position: relative;
+}
+
+.descriptionMsg {
+  text-align: center;
+}
+
+.descriptionImg {
+  height: 200px;
+  width: 400px;
+  /* padding:0 100px 0 0; */
+  position: absolute;
+  bottom: 0;
+  left: -50px;
+}
+
+.header-limiter h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media all and (max-width: 481px) {
+  .descriptionImg {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .descriptionImg {
+    padding: 0;
+    /* width: 100%; */
+  }
+}

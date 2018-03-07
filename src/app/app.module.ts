@@ -9,10 +9,11 @@ import { routerAnimation } from './animations';
 import { AppComponent } from './app.component';
 import { CreateOrderComponent } from './create-order/create-order.component';
 import { ContentComponent } from './content/content.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const appRoutes: Routes = [
-  { path: '', component: ContentComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full'  },
   {
     path: 'home', component: ContentComponent, data: {
       animation: {
@@ -26,6 +27,13 @@ const appRoutes: Routes = [
         value: 'order',
       }
     }
+  },
+  {
+    path: 'pricing', component: ContentComponent, data: {
+      animation: {
+        value: 'pricing',
+      }
+    }
   }
 ];
 
@@ -33,7 +41,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     CreateOrderComponent,
-    ContentComponent
+    ContentComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

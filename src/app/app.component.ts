@@ -19,7 +19,6 @@ import {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css',
     './appCss/style.css',
-    './appCss/styleFooter.css',
     './appCss/styleHeader.css'],
     animations: [
       trigger('routerAnimations', [
